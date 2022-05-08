@@ -47,7 +47,7 @@
   pip install robotframework-websocketclient
     ```
 
-## BroserOpenCloseTest
+## BrowserOpenCloseTest
 
 This test opens and close chrome browser.
 
