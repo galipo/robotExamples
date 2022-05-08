@@ -2,7 +2,7 @@
 
 - [robotExamples](#robotexamples)
   - [Installation Instructions](#installation-instructions)
-  - [WebPageOpenCloseTest](#WebPageOpenCloseTest)
+  - [BrowserOpenCloseTest](#BrowserOpenCloseTest)
   - [WebSocketEchoTest](#WebSocketEchoTest)
 
 ## Installation Instructions
@@ -47,7 +47,7 @@
   pip install robotframework-websocketclient
     ```
 
-## WebPageOpenCloseTest
+## BroserOpenCloseTest
 
 This test opens and close chrome browser.
 
