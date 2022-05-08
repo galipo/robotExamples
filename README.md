@@ -2,6 +2,8 @@
 
 - [robotExamples](#robotexamples)
   - [Installation Instructions](#installation-instructions)
+  - [WebPageOpenCloseTest](#WebPageOpenCloseTest)
+  - [WebSocketEchoTest](#WebSocketEchoTest)
 
 ## Installation Instructions
 
@@ -39,8 +41,24 @@
     setx /M PATH "%PATH%;<chrome path>"
     ```
 
-## Executing Test Cases
-- Basic  Usage
+- Install websocket client
+
     ```
-    robot -d results tests/amazon.robot
+  pip install robotframework-websocketclient
     ```
+
+## WebPageOpenCloseTest
+
+This test opens and close chrome browser.
+
+  ```
+  robot -d results tests\BrowserOpenCloseTest.robot
+  ```
+
+## WebSocketEchoTest
+
+This test connect to web socket server and send message and verify the returned back message.
+
+  ```
+  robot -d results tests\WebSocketEchoTest.robot
+  ```
